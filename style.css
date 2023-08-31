@@ -1,0 +1,129 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+header { 
+
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding:14px 10px ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+header .logo { font-size: 15px;}
+
+nav ul { display: flex;
+align-items: center;
+column-gap: 40px;
+border-right: 1px solid gray;
+padding:5px 20px 5px 0px;}
+
+nav ul li { list-style: none;}
+
+nav .right-contact 
+{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+nav .right-contact .right-contact-text p { font-size: 14x;
+line-height: 18px;}
+
+main { 
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+main .container { height:80%;
+background-color: blue;
+width: 100%;
+display: flex;}
+
+
+.services { width: 200px;px;
+height: 70px;
+background-color: rgb(255, 208, 0);
+position: absolute;
+left: -5%;
+top: 10%;
+box-shadow: 1px 1px black;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.inside{
+    width: 90px;
+    height: 90px; ;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+padding: 0px 5px;
+
+ }
+
+
+
+ .inside .left {  
+ height: ;
+ }
+
+
+
+main  .container .left-text { width: 100%;
+    height: 100%;
+    background-color: rgb(109, 18, 78);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+main  .container .right-img { width: 100%;
+height: 50%; 
+background-image: ;
+background-position: center;
+background-size: cover;
+position: relative;}
+
+
+main .container .right-img .service {  
+position: absolute;
+left:-15%;
+top: 0;
+}
+
+main .container .right-img .rating {
+    position: absolute;
+right: -20%;
+bottom: 0;
+}
+
+main .container .left-text .content {
+
+}
